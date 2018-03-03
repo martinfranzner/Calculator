@@ -8,7 +8,7 @@
 
 #ifndef Operacao_hpp
 #define Operacao_hpp
-
+#include <iostream>
 #include <stdio.h>
 using namespace std;
 class Operacao{
@@ -16,9 +16,9 @@ class Operacao{
     
 public:
     Operacao();
-    adicao();
-    subtracao();
-    multiplicacao();
-    divisao();
+    float adicao(float num);
+    float subtracao(float num);
+    float multiplicacao(float num);
+    float divisao(float num);
 };
 #endif /* Operacao_hpp */

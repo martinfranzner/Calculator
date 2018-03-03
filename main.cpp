@@ -8,11 +8,11 @@
 
 #include <iostream>
 #include <string>
+#include "Operacao.hpp"
 
 using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    string cont;
+    Operacao a;
     
     return 0;
 }
